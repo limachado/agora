@@ -4,4 +4,7 @@
 
   tasks:
   - name: ping
+    environment:
+        http_proxy: http://limachado:Leitinha15@proxylatam.indra.es:8080
     win_ping:
+  
