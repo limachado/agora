@@ -1,4 +1,4 @@
 ---
-- hosts: maquina
+- hosts: all
   roles:
-    - powershell
+    win_ping:
