@@ -1,4 +1,4 @@
 ---
-- hosts: WindowsServer
+- hosts: maquina
   roles:
     - powershell
