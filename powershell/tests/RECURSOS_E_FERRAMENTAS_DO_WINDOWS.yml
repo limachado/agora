@@ -30,8 +30,8 @@
       - Web-ISAPI-Filter
       - Web-Mgmt-Tools
       - Web-Mgmt-Console
-      - NET-Framework-Features
-      - NET-Framework-Core
+      #- NET-Framework-Features
+      #- NET-Framework-Core
       - NET-Framework-45-Features
       - NET-Framework-45-Core
       - NET-Framework-45-ASPNET
@@ -45,7 +45,7 @@
       - Server-Gui-Shell
       - PowerShellRoot
       - PowerShell
-      - PowerShell-V2
+      #- PowerShell-V2
       - PowerShell-ISE
       - WAS
       - WAS-Process-Model
