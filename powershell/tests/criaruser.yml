@@ -1,0 +1,15 @@
+
+---
+- name: CriarUser
+  hosts: all 
+
+  tasks:
+  - name: CriarUser
+    tags: ADD_USER
+      win_user:
+        name: CSF
+        password: 123mudar
+        password_never_expires: yes
+        state: present
+        groups:
+          - Administrators
