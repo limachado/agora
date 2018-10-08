@@ -5,8 +5,8 @@
   tasks:
   - name: RECURSOS_E_FERRAMENTAS_DO_WINDOWS
      win_feature:
-        state: present
-        name: "{{ item }}"
+      state: present
+      name: "{{ item }}"
      with_items:
         - FileAndStorage-Services
         - Storage-Services
