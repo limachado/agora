@@ -1,8 +1,9 @@
+---
 - name: RECURSOS_E_FERRAMENTAS_DO_WINDOWS
-    hosts: all 
+   hosts: all 
     
-    tasks:
-    - name: RECURSOS_E_FERRAMENTAS_DO_WINDOWS
+   tasks:
+   - name: RECURSOS_E_FERRAMENTAS_DO_WINDOWS
         tags: ROLES_AND_FEATURES
         win_feature:
           state: present
