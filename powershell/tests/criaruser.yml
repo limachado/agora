@@ -7,7 +7,7 @@
   - name: CriarUser
     win_user:
       name: CSF
-      password: 123mudar
+      password: 123Mudar231
       password_never_expires: yes
       state: present
       groups:
