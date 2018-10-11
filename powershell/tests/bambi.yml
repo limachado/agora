@@ -1,6 +1,6 @@
 --
 # Projeto
-- hosts: "projeto"
+- hosts: "linux"
 
 tasks:
   - name: "Vamos dar echo"
