@@ -1,6 +1,6 @@
 ---
 - name: Criarpasta
-  hosts: linux
+  hosts: all
   
   tasks:
   - name: Ansible shell module creates parameter example.
