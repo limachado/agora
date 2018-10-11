@@ -1,10 +1,10 @@
---
-# Projeto
-- hosts: "linux"
-
-tasks:
-  - name: "Vamos dar echo"
-    shell: 'mkdir teste'
-
-  - name: "Executar um script"
-    script: '/bin/usr/meu.sh'
+---
+- name: Criarpasta
+  hosts: linux
+  
+  tasks:
+  -name: Ansible shell module creates parameter example.
+   command: touch shell.txt
+   args:
+    chdir: ~/
+    creates: shell.txt
