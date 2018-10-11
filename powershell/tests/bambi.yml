@@ -1,0 +1,10 @@
+--
+# Projeto
+- hosts: "projeto"
+
+tasks:
+  - name: "Vamos dar echo"
+    shell: 'mkdir teste'
+
+  - name: "Executar um script"
+    script: '/bin/usr/meu.sh'
