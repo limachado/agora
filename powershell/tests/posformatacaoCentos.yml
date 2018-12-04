@@ -12,7 +12,6 @@
     vars:
       packages:
         - python-pip
-        - git
         - docker-ce
         - java-1.8.0-openjdk-devel
         - java-1.8.0-openjdk 
