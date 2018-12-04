@@ -4,7 +4,14 @@
 
   tasks:
   - name: prepara repositorio
-    shell: files/configurarRepositorio.sh >> somelog.txt
+    shell: files/repoCe >> somelog.txt
+    when:
+      - ansible_facts['distribution'] == "CentOS"
+    
+  - name: prepara repositorio
+    shell: files/repoDe.sh >> somelog.txt
+    when:
+      - ansible_facts['distribution'] == "Debian"
     
   - name: posformatacaoCentos
     apt:
