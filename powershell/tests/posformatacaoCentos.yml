@@ -7,16 +7,17 @@
     shell: files/configurarRepositorio.sh >> somelog.txt
     
   - name: posformatacaoCentos
-    yum:
-      name: 
+    apt:
+      name: "{{ packages }}"
+    vars:
+      packages:
         - python-pip
         - git
         - docker-ce
         - java-1.8.0-openjdk-devel
         - java-1.8.0-openjdk 
         - wget
-        - kernel-devel kernel-headers gcc make perl
         - VirtualBox-5.2
         - google-chrome-stable
         
-      reboot:
+    reboot:
