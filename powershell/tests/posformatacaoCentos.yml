@@ -25,5 +25,6 @@
         - wget
         - VirtualBox-5.2
         - google-chrome-stable
+        - sublime-text
         
     reboot:
