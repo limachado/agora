@@ -20,5 +20,5 @@ sudo apt-get -f install
  echo "deb http://download.virtualbox.org/virtualbox/debian stretch contrib" >> /etc/apt/sources.list
  wget -q -O- https://www.virtualbox.org/download/oracle_vbox_2016.asc | apt-key add
  apt-get udpate
- apt-get install virtualbox-5.1
+
  
