@@ -15,10 +15,12 @@ wget https://repo.skype.com/latest/skypeforlinux-64.deb
 sudo dpkg -i skypeforlinux-64.deb
 sudo apt-get -f install
 
-###### repo VirtualBox  ######
+ ###### repo VirtualBox  ######
 
  echo "deb http://download.virtualbox.org/virtualbox/debian stretch contrib" >> /etc/apt/sources.list
  wget -q -O- https://www.virtualbox.org/download/oracle_vbox_2016.asc | apt-key add
  apt-get udpate
 
- 
+ ###### sublime ###########
+ wget http://c758482.r82.cf2.rackcdn.com/sublime-text_build-3083_amd64.deb
+ sudo dpkg -i sublime-text_build-3083_amd64.deb
